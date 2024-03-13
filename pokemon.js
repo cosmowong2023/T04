@@ -24,6 +24,7 @@ async function fetchPokemon(url) {
 // put the pokemon’s type inside the element and
 // append to the div obtained in TODO 5. 
 // Note that you need to join multiple types into single string.
+}
 async function fetchPokemons() {
 //TODO 1: Call API https://pokeapi.co/api/v2/pokemon?offset=20&limit=20 to fetch 
 // the pokemons and store the returned JSON in a variable. 
