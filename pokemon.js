@@ -29,11 +29,16 @@ async function fetchPokemons() {
 //TODO 1: Call API https://pokeapi.co/api/v2/pokemon?offset=20&limit=20 to fetch 
 // the pokemons and store the returned JSON in a variable. 
 // const response = await fetch(“https://pokeapi.co/...”);
+    const URL = "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20";
+    response = (await fetch(URL)).json()
+    console.log(response)
+  }
 //TODO 2: For each pokemon, use “document.createElement” to create a div, set the 
 // pokemon’s name as the div’s id, and set the class to ‘pokemon’. Append 
 // the new created div to the given pokemons div
 // You may use setAttribute and appendChild function accordingly. 
+
 //TODO 3: After that inside the same loop, 
 // call second API to fetch individual Pokémon. 
-}
+
 fetchPokemons()
