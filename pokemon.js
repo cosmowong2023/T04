@@ -37,6 +37,7 @@ async function fetchPokemons() {
 // pokemon’s name as the div’s id, and set the class to ‘pokemon’. Append 
 // the new created div to the given pokemons div
 // You may use setAttribute and appendChild function accordingly. 
+let pokemon = document.createElement("pokemon")
 
 //TODO 3: After that inside the same loop, 
 // call second API to fetch individual Pokémon. 
